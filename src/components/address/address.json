@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_address_addresses",
+  "info": {
+    "displayName": "Address",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Address": {
+      "type": "string"
+    },
+    "openHours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hours.opening-hours"
+    },
+    "Infos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infos.information"
+    },
+    "Picture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pictures.pictures"
+    }
+  }
+}
